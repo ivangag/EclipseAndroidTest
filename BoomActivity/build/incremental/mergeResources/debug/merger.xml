@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger>
+
+    <dataSet config="main" >
+        <source path="D:\Android\dev\workspace_coursera_examples\BoomActivity\res" >
+            <file
+                name="ic_launcher"
+                path="D:\Android\dev\workspace_coursera_examples\BoomActivity\res\drawable-hdpi\ic_launcher.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="ic_launcher"
+                path="D:\Android\dev\workspace_coursera_examples\BoomActivity\res\drawable-mdpi\ic_launcher.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="ic_launcher"
+                path="D:\Android\dev\workspace_coursera_examples\BoomActivity\res\drawable-xhdpi\ic_launcher.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="ic_launcher"
+                path="D:\Android\dev\workspace_coursera_examples\BoomActivity\res\drawable-xxhdpi\ic_launcher.png"
+                qualifiers="xxhdpi"
+                type="drawable" />
+            <file
+                name="boom_layout"
+                path="D:\Android\dev\workspace_coursera_examples\BoomActivity\res\layout\boom_layout.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                path="D:\Android\dev\workspace_coursera_examples\BoomActivity\res\values\strings.xml"
+                qualifiers="" >
+                <string name="boom_perm_string" >Goes BOOM. Malicious applications can cause the dynamite to GO BOOM!
+                </string>
+                <string name="app_name" >Permission Example Boom
+                </string>
+                <string name="boom_permission_label_string" >Boom Permission
+                </string>
+                <string name="boom_string" >BOOM!
+                </string>
+            </file>
+        </source>
+        <source path="D:\Android\dev\workspace_coursera_examples\BoomActivity\build\res\rs\debug" />
+    </dataSet>
+    <dataSet config="debug" >
+        <source path="D:\Android\dev\workspace_coursera_examples\BoomActivity\build-types\debug\res" />
+    </dataSet>
+
+</merger>
